@@ -46,7 +46,7 @@ showAddCourse();
 
 
 function showForm(){
-
+//also calls submiter() function in appended html onclick
 var fm = '';
 
   fm +='<div class="form-group">';
@@ -109,7 +109,7 @@ alert("please fill in the form")
 
 
 function showAddCourse(){
-
+//also calls showForm(), computeGp() functions in appended html onclick
 var old = '';
 
 old += '<div class="container">';
@@ -134,7 +134,7 @@ $(old).appendTo($('#holder'));
 
 
 function showAddSemester(){
-
+//also calls CopySemOnClick(), computeCgpa() functions in appended html onclick
 var old = '';
 
 old += '<div class="container">';
